@@ -2,15 +2,15 @@
 //include database connection 
 include 'configdb.php';
 
-//Declaration the constants
-define('TEMP', 'includes/templates/');
-define('LANG', 'includes/languages/');
-define('FUNC', 'includes/functions/');
-define('CSS', 'layouts/css/');
-define('JS', 'layouts/js/');
-define('IMG', 'layouts/images/');
-define ('LOGO', 'layouts/images/logo.png');
-define('PAGE', 'pages/');
+//Declaration the constants And Check If Exists OR Not
+defined('TEMP') ? null : define('TEMP', 'includes/templates/');
+defined('FUNC') ? null : define('FUNC', 'includes/functions/');
+defined('LANG') ? null : define('LANG', 'includes/languages/');
+defined('CSS')  ? null : define('CSS', 'layouts/css/');
+defined('JS')   ? null : define('JS', 'layouts/js/');
+defined('IMG')  ? null : define('IMG', 'layouts/images/');
+defined('LOGO') ? null : define ('LOGO', 'layouts/images/logo.png');
+defined('PAGE') ? null : define('PAGE', 'pages/');
 
 //Include All Function 
 include FUNC . "functions.php"; 

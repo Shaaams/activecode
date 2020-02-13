@@ -1,6 +1,7 @@
-</head>
+</head> 
+<!-- end header -->
     <body>
-
+        <!-- start page -->
     <div id="page-wrapper">
         <div class="container-fluid">
             <!-- Page Heading -->
