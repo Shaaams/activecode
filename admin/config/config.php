@@ -1,6 +1,6 @@
 <?php
 //include database connection 
-include 'connect.php';
+include 'configdb.php';
 
 //Declaration the constants
 define('TEMP', 'includes/templates/');

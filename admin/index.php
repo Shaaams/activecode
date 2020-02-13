@@ -1,7 +1,7 @@
 <?php
 
 $pageTitle = 'Admin Dashboard';
-include 'config.php';
+include 'config/config.php';
 ?>
 
 <h1>Welcome Admin Dashboard !</h1>
