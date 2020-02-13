@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-
-<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-<link type="text/css" rel="stylesheet" href="css/fawsome.min.css"/>
-<link type="text/css" rel="stylesheet" href="css/sidebar.css"/>
-
-</head>
-<body>
-
-    <div id="throbber" style="display:none; min-height:120px;"></div>
+<div id="throbber" style="display:none; min-height:120px;"></div>
 <div id="noty-holder"></div>
 <div id="wrapper">
     <!-- Navigation -->
@@ -23,8 +11,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://cijulenlinea.ucr.ac.cr/dev-users/">
-                <img style="background : #29968b" src="images/logo.png" alt="LOGO"">
+            <a class="navbar-brand" href="#">
+                <img style="background : #29968b" src="<?= LOGO ?>" alt="LOGO"">
             </a>
         </div>
         <!-- Top Menu Items -->
@@ -74,25 +62,3 @@
         </div>
         <!-- /.navbar-collapse -->
     </nav>
-
-    <div id="page-wrapper">
-        <div class="container-fluid">
-            <!-- Page Heading -->
-            <div class="row" id="main" >
-                <div class="col-sm-12 col-md-12 well" id="content">
-                    <h1>Welcome Admin!</h1>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container-fluid -->
-    </div>
-    <!-- /#page-wrapper -->
-</div><!-- /#wrapper -->
-
-<script src="js/jquery-1.11.1.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/sidebar.js"></script>
-
-</body>
-</html>
