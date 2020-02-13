@@ -1,4 +1,5 @@
 <?php
+
 $pageTitle = 'Admin Dashboard';
 include 'config.php';
 ?>

@@ -10,3 +10,4 @@
             <link type="text/css" rel="stylesheet" href="<?=CSS?>bootstrap.min.css"/>
             <link type="text/css" rel="stylesheet" href="<?=CSS?>fawsome.min.css"/>
             <link type="text/css" rel="stylesheet" href="<?=CSS?>sidebar.css"/>
+            <link type="text/css" rel="stylesheet" href="<?=CSS?>admin.css"/>

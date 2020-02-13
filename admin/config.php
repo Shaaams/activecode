@@ -1,4 +1,7 @@
 <?php
+//include database connection 
+include 'connect.php';
+
 //Declaration the constants
 define('TEMP', 'includes/templates/');
 define('LANG', 'includes/languages/');
@@ -12,6 +15,8 @@ define('PAGE', 'pages/');
 //Include All Function 
 include FUNC . "functions.php"; 
 include LANG . "english.php"; 
+
+
 
 // Include All Templates
 include TEMP . 'header.php';
