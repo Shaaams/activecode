@@ -1,4 +1,5 @@
 <?php
+
 //include database connection 
 include 'configdb.php';
 
@@ -21,5 +22,3 @@ include FUNC . "functions.php";
 
 // Include All Templates
 include TEMP . 'header.php';
-include TEMP . 'sidebar.php';
-include TEMP . 'bodystart.php';

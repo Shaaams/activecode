@@ -1,7 +1,7 @@
 <?php
 $servername  = "localhost";
 $username    = "root";
-$password    = "";
+$password    = "pdo";
 $dbName      ="iptv";
 
 // Create connection
@@ -13,7 +13,7 @@ if (! $conn) {
 
     echo mysqli_connect_error("Connected Failed") . mysqli_connect_error();
 }else{
-    echo "Connected successfully";
+   // echo "Connected successfully";
 }
 
 function closeDb($conn)
