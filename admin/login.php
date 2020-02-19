@@ -29,7 +29,9 @@ include 'config/configlogin.php';
         //Ajax Method 
         function login()    
             {
-                        
+                
+                var name = document.getElementById('userName').value;
+                var pass = document.getElementById('userPassword').value;
                 var xhr = new XMLHttpRequest();
                 
                 xhr.onreadystatechange = function(){
