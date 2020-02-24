@@ -1,7 +1,7 @@
 <?php
 $servername  = "localhost";
 $username    = "root";
-$password    = "";
+$password    = "pdo";
 $dbName      ="iptv";
 
 // Create connection

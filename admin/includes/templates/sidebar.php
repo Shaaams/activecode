@@ -34,9 +34,9 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li>
-                    <a href="#" data-toggle="collapse" data-target="#submenu-1"><i class="fa fa-fw fa-search"></i> MENU 1 <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+                    <a href="#" data-toggle="collapse" data-target="#submenu-1"><i class="fa fa-fw fa-search"></i> Resellers <i class="fa fa-fw fa-angle-down pull-right"></i></a>
                     <ul id="submenu-1" class="collapse">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.1</a></li>
+                        <li><a href="addreseller.php"><i class="fa fa-angle-double-right"></i> ADD Reseller</a></li>
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.2</a></li>
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.3</a></li>
                     </ul>
